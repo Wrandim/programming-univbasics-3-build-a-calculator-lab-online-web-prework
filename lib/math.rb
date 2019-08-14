@@ -22,13 +22,11 @@ def multiplication(num1, num2)
   return num1 * num2
 end
 
-#def modulo(num1, num2)
- # num1 = 5
-  #num2 = 34
-#  num3 = num2 / num1 
- # return 
-
-#end
+def modulo(num1, num2)
+  num1 = 5 
+  num2 = 34
+  return num2 % num1
+end
 
 def square_root(num)
   num = 81
